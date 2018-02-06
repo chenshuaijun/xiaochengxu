@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/lottery/doubleColorBall/doubleColorBall",
+    "pages/location/location",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "寒通",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,28 @@
+<!--pages/lottery/doubleColorBall/doubleColorBall.wxml-->
+
+<view>
+  <view class='result'>
+    <view class='issueDate'>第{{issueNo}}期
+      <label class='datetime'>开奖日期：{{issueDate}}</label>
+    </view>
+    <view>
+      <view class='ball red'>{{redball1}}</view>
+      <view class='ball red'>{{redball2}}</view>
+      <view class='ball red'>{{redball3}}</view>
+      <view class='ball red'>{{redball4}}</view>
+      <view class='ball red'>{{redball5}}</view>
+      <view class='ball red'>{{redball6}}</view>
+      <view class='ball blue'>{{blueball1}}</view>
+    </view>
+    <view class='issue-amt'>
+      一等奖金额：{{firstPrize}}
+    </view>
+    <view class='issue-amt'>
+      奖金池金额：{{prizePool}}
+    </view>
+    <view class='issue-amt'>
+      当日累计销售额：{{sellAmt}}
+    </view>
+  </view>
+
+</view>

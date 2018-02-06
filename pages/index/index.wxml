@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- map.wxml -->
+  <map id="map" 
+    longitude="{{centerX}}" 
+    latitude="{{centerY}}" 
+    scale="14" 
+    controls="{{controls}}" 
+    bindcontroltap="controltap" 
+    markers="{{markers}}" 
+    bindmarkertap="markertap" 
+    polyline="{{polyline}}" 
+    bindregionchange="regionchange" 
+    iconPath="../resource/image/location-control.png"
+    show-location >
+  </map>
+
+
+  <view class='doubleBallButton'>
+    <image src='../resource/doubleColorBall.png' bindtap="bindDoubleColorBallViewTap"></image>
+  </view>
+
+
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+      获取头像昵称
+    </button>
+    <block wx:else>
+      <!--bindtap="bindViewTap"-->
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+
+  </view>
+
+
+</view>

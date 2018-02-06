@@ -1,0 +1,6 @@
+<!-- show-location -->
+
+<map id="myMap" scale="15" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" bindregionchange="regionchange">
+
+
+</map>

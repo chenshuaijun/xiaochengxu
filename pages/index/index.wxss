@@ -1,0 +1,44 @@
+/**index.wxss**/
+
+.userinfo {
+  position: absolute;
+  border: 2px solid gainsboro;
+  background-color: ghostwhite;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 10%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 15px;
+}
+
+.doubleBallButton {
+  position:absolute;
+  margin-top: 15px;
+  right: 20px;
+  width: 36px;
+  height: 36px;
+}
+
+.doubleBallButton image {
+  width: 36px;
+  height: 36px;
+}
+map{
+  width: 100%;
+  height: 100vmax;
+}

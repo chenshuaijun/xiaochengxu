@@ -1,0 +1,48 @@
+/* pages/lottery/doubleColorBall/doubleColorBall.wxss */
+
+.result{
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  margin:10px; 
+  padding: 5px;
+}
+.issueDate{
+  border-bottom:  1px solid #aaa;
+  text-align: left;
+  margin: 5px;
+  padding: 5px;
+}
+.issue-amt{
+
+  text-align: left;
+  font-size: 12px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.datetime{
+  font-size: 12px;
+  margin-left:6px; 
+}
+
+.ball{
+  position: relative;
+  margin: 3px;
+  display: inline-block;
+  line-height: 25px;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+.ball.red {
+  border: 3px solid red;
+  color: red;
+  text-shadow: 2px;
+  
+}
+.ball.blue {
+  border: 3px solid blue;
+  color: blue;
+}
