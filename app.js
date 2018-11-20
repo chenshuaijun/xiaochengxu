@@ -5,7 +5,7 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
-
+ 
     // 登录,获取用户的信息数据绑定关系
     wx.login({
       success: res => {
